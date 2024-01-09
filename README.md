@@ -23,7 +23,7 @@ This code is based on the following works：
 - **5_AR_6108_NURA_chemprop.csv**：NuRA-AR’s SMILES dataset.
 * **Features**：The fusion features used in hyD-MPNN include the total alva descriptors dataset and the dataset divided into 10 seeds.
 - **Metric_Chemporp.ipynb**：A tool script for summarizing prediction results.
-- **Running script examples**：
+* **Running script examples**：
  ```
 # D-MPNN
 chemprop_hyperopt --dataset_type classification --num_iters 300 --data_path 5_AR_6108_NURA_chemprop.csv --config_save_path Config/config_AR_6108.json
@@ -38,7 +38,7 @@ chemprop_predict --test_path predata.csv --no_features_scaling --checkpoint_dir 
 #### 2-HyML-based：This includes all the source code of HyML-based models in this study.
 * **model**：Hybrid models and Hyperparameters.
 - **output**：Prediction results of NuRA-AR test set.
-- **In hyLGB hySVM hyXGB.ipynb**.
+* **In hyLGB hySVM hyXGB.ipynb**.
  ```
     # Adjust the parameters here
     tasks_dic = {'1-AR-AlvaSlim-DMPNN-6108-Normalize-group.csv': ['activity']}
