@@ -1,0 +1,11 @@
+conda create -n dgllife python=3.6
+conda activate dgllife 
+conda install ipykernel
+#conda install pytorch==1.7.0 torchvision==0.8.0 torchaudio==0.7.0 cudatoolkit=11.0
+pip install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
+conda install -c dglteam dgl-cuda11.0==0.7.2
+#pip install dgl-cu110 dglgo -f https://data.dgl.ai/wheels/repo.html
+pip install dgllife==0.2.9 --trusted-host pypi.tuna.tsinghua.edu.cn
+conda install -c rdkit rdkit==2018.09.3 
+pip install hyperopt --trusted-host pypi.tuna.tsinghua.edu.cn
+

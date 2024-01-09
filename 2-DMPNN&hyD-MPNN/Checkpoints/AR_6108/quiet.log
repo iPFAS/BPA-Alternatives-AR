@@ -1,0 +1,146 @@
+Fold 0
+Model 0 best validation accuracy = 0.895254 on epoch 24
+Model 0 test accuracy = 0.913257
+Model 0 test auc = 0.922680
+Model 0 test f1 = 0.710383
+Model 0 test mcc = 0.661241
+Ensemble test accuracy = 0.913257
+Ensemble test auc = 0.922680
+Ensemble test f1 = 0.710383
+Ensemble test mcc = 0.661241
+Fold 1
+Model 0 best validation accuracy = 0.921440 on epoch 23
+Model 0 test accuracy = 0.905074
+Model 0 test auc = 0.920504
+Model 0 test f1 = 0.691489
+Model 0 test mcc = 0.650463
+Ensemble test accuracy = 0.905074
+Ensemble test auc = 0.920504
+Ensemble test f1 = 0.691489
+Ensemble test mcc = 0.650463
+Fold 2
+Model 0 best validation accuracy = 0.924714 on epoch 8
+Model 0 test accuracy = 0.900164
+Model 0 test auc = 0.915180
+Model 0 test f1 = 0.696517
+Model 0 test mcc = 0.659347
+Ensemble test accuracy = 0.900164
+Ensemble test auc = 0.915180
+Ensemble test f1 = 0.696517
+Ensemble test mcc = 0.659347
+Fold 3
+Model 0 best validation accuracy = 0.923077 on epoch 41
+Model 0 test accuracy = 0.929624
+Model 0 test auc = 0.949687
+Model 0 test f1 = 0.800000
+Model 0 test mcc = 0.770146
+Ensemble test accuracy = 0.929624
+Ensemble test auc = 0.949687
+Ensemble test f1 = 0.800000
+Ensemble test mcc = 0.770146
+Fold 4
+Model 0 best validation accuracy = 0.916530 on epoch 29
+Model 0 test accuracy = 0.903437
+Model 0 test auc = 0.908808
+Model 0 test f1 = 0.772201
+Model 0 test mcc = 0.712108
+Ensemble test accuracy = 0.903437
+Ensemble test auc = 0.908808
+Ensemble test f1 = 0.772201
+Ensemble test mcc = 0.712108
+Fold 5
+Model 0 best validation accuracy = 0.909984 on epoch 10
+Model 0 test accuracy = 0.916530
+Model 0 test auc = 0.929641
+Model 0 test f1 = 0.732984
+Model 0 test mcc = 0.709133
+Ensemble test accuracy = 0.916530
+Ensemble test auc = 0.929641
+Ensemble test f1 = 0.732984
+Ensemble test mcc = 0.709133
+Fold 6
+Model 0 best validation accuracy = 0.921440 on epoch 16
+Model 0 test accuracy = 0.896890
+Model 0 test auc = 0.905427
+Model 0 test f1 = 0.622754
+Model 0 test mcc = 0.623947
+Ensemble test accuracy = 0.896890
+Ensemble test auc = 0.905427
+Ensemble test f1 = 0.622754
+Ensemble test mcc = 0.623947
+Fold 7
+Model 0 best validation accuracy = 0.921440 on epoch 16
+Model 0 test accuracy = 0.906710
+Model 0 test auc = 0.916343
+Model 0 test f1 = 0.732394
+Model 0 test mcc = 0.686489
+Ensemble test accuracy = 0.906710
+Ensemble test auc = 0.916343
+Ensemble test f1 = 0.732394
+Ensemble test mcc = 0.686489
+Fold 8
+Model 0 best validation accuracy = 0.923077 on epoch 82
+Model 0 test accuracy = 0.900164
+Model 0 test auc = 0.923009
+Model 0 test f1 = 0.733624
+Model 0 test mcc = 0.672741
+Ensemble test accuracy = 0.900164
+Ensemble test auc = 0.923009
+Ensemble test f1 = 0.733624
+Ensemble test mcc = 0.672741
+Fold 9
+Model 0 best validation accuracy = 0.934534 on epoch 50
+Model 0 test accuracy = 0.891980
+Model 0 test auc = 0.901317
+Model 0 test f1 = 0.727273
+Model 0 test mcc = 0.661928
+Ensemble test accuracy = 0.891980
+Ensemble test auc = 0.901317
+Ensemble test f1 = 0.727273
+Ensemble test mcc = 0.661928
+10-fold cross validation
+	Seed 1 ==> test accuracy = 0.913257
+	Seed 1 ==> test auc = 0.922680
+	Seed 1 ==> test f1 = 0.710383
+	Seed 1 ==> test mcc = 0.661241
+	Seed 2 ==> test accuracy = 0.905074
+	Seed 2 ==> test auc = 0.920504
+	Seed 2 ==> test f1 = 0.691489
+	Seed 2 ==> test mcc = 0.650463
+	Seed 3 ==> test accuracy = 0.900164
+	Seed 3 ==> test auc = 0.915180
+	Seed 3 ==> test f1 = 0.696517
+	Seed 3 ==> test mcc = 0.659347
+	Seed 4 ==> test accuracy = 0.929624
+	Seed 4 ==> test auc = 0.949687
+	Seed 4 ==> test f1 = 0.800000
+	Seed 4 ==> test mcc = 0.770146
+	Seed 5 ==> test accuracy = 0.903437
+	Seed 5 ==> test auc = 0.908808
+	Seed 5 ==> test f1 = 0.772201
+	Seed 5 ==> test mcc = 0.712108
+	Seed 6 ==> test accuracy = 0.916530
+	Seed 6 ==> test auc = 0.929641
+	Seed 6 ==> test f1 = 0.732984
+	Seed 6 ==> test mcc = 0.709133
+	Seed 7 ==> test accuracy = 0.896890
+	Seed 7 ==> test auc = 0.905427
+	Seed 7 ==> test f1 = 0.622754
+	Seed 7 ==> test mcc = 0.623947
+	Seed 8 ==> test accuracy = 0.906710
+	Seed 8 ==> test auc = 0.916343
+	Seed 8 ==> test f1 = 0.732394
+	Seed 8 ==> test mcc = 0.686489
+	Seed 9 ==> test accuracy = 0.900164
+	Seed 9 ==> test auc = 0.923009
+	Seed 9 ==> test f1 = 0.733624
+	Seed 9 ==> test mcc = 0.672741
+	Seed 10 ==> test accuracy = 0.891980
+	Seed 10 ==> test auc = 0.901317
+	Seed 10 ==> test f1 = 0.727273
+	Seed 10 ==> test mcc = 0.661928
+Overall test accuracy = 0.906383 +/- 0.010372
+Overall test auc = 0.919260 +/- 0.013071
+Overall test f1 = 0.721962 +/- 0.045344
+Overall test mcc = 0.680754 +/- 0.039006
+Elapsed time = 1:06:12

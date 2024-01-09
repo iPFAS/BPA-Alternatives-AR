@@ -1,0 +1,17 @@
+{
+  "batch_size": 64,
+  "batchnorm": false,
+  "dropout": 0.3200187562814322,
+  "gnn_hidden_feats": 32,
+  "lr": 0.1233531101471582,
+  "num_gnn_layers": 5,
+  "patience": 640,
+  "predictor_hidden_feats": 16,
+  "residual": true,
+  "weight_decay": 4.950485649809089e-05,
+  "model": "GCN",
+  "n_tasks": 1,
+  "atom_featurizer_type": "canonical",
+  "bond_featurizer_type": "canonical",
+  "in_node_feats": 74
+}

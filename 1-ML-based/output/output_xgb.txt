@@ -1,0 +1,71 @@
+acc of training set is 0.995±0.014, validation set is 0.914±0.011, test set is 0.910±0.006
+auc_roc of training set is 0.999±0.004, validation set is 0.941±0.011, test set is 0.936±0.007
+recall of training set is 0.977±0.060, validation set is 0.666±0.043, test set is 0.653±0.024
+precision of training set is 0.996±0.013, validation set is 0.860±0.041, test set is 0.849±0.032
+f1 of training set is 0.985±0.039, validation set is 0.749±0.031, test set is 0.737±0.016
+kappa of training set is 0.982±0.047, validation set is 0.698±0.036, test set is 0.684±0.018
+mcc of training set is 0.983±0.045, validation set is 0.707±0.034, test set is 0.693±0.018
+                          0
+0                        MW
+1                       AMW
+2                        Sv
+3                       nAA
+4                       nTA
+5                       RBN
+6                       nDB
+7                       nTB
+8                        nN
+9                        nO
+10                       nS
+11                       nF
+12                      nCL
+13                      nBR
+14                       nI
+15                      nHM
+16                     nHet
+17                       nX
+18                       H%
+19                       C%
+20                       N%
+21                       O%
+22                       X%
+23                    nCsp3
+24                     nCsp
+25                     Fsp3
+26            max_conj_path
+27                     nCIC
+28                     nCIR
+29                    Rbrid
+...                     ...
+1478                nLevel6
+1479                nLevel7
+1480                nLevel8
+1481                nLevel9
+1482               nLevel10
+1483               phLevel1
+1484               phLevel2
+1485               phLevel3
+1486               arLevel1
+1487               arLevel2
+1488               arLevel3
+1489                s2_size
+1490                s3_size
+1491              s2_phSize
+1492              s3_phSize
+1493              s4_phSize
+1494         s2_phRelSize_2
+1495          s2_pathLength
+1496     s2_relPathLength_2
+1497     s3_relPathLength_2
+1498     s4_relPathLength_2
+1499  s2_numSharedNeighbors
+1500  s3_numSharedNeighbors
+1501  s4_numSharedNeighbors
+1502         s2_numRotBonds
+1503         s3_numRotBonds
+1504         s4_numRotBonds
+1505         s2_numAroBonds
+1506         s3_numAroBonds
+1507         s4_numAroBonds
+
+[1508 rows x 1 columns]

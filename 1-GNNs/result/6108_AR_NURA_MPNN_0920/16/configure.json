@@ -1,0 +1,17 @@
+{
+  "batch_size": 128,
+  "edge_hidden_feats": 32,
+  "lr": 0.10177294827053628,
+  "node_out_feats": 64,
+  "num_layer_set2set": 2,
+  "num_step_message_passing": 3,
+  "num_step_set2set": 1,
+  "patience": 30,
+  "weight_decay": 0.002039803590075975,
+  "model": "MPNN",
+  "n_tasks": 1,
+  "atom_featurizer_type": "canonical",
+  "bond_featurizer_type": "canonical",
+  "in_node_feats": 74,
+  "in_edge_feats": 13
+}

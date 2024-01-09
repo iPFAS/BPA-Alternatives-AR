@@ -1,0 +1,23 @@
+conda create -n chemprop python=3.7
+source /home/admin/anaconda3/bin/activate chemprop
+conda activate chemprop 
+conda install rdkit -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/rdkit
+conda install git
+pip install git+https://github.com/bp-kelley/descriptastorus
+#If you cannot access Git to download the GitHub library, execute "python setup.py sdist" and then "cd dist" and execute "pip install xxx.tar.gz".
+pip install -i https://mirrors.ustc.edu.cn/pypi/web/simple pip -U
+pip config set global.index-url https://mirrors.ustc.edu.cn/pypi/web/simple
+pip install chemprop 
+pip3 install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio===0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+pip install tensorflow-gpu --user
+pip install    flask
+pip install    hyperopt
+pip install	matplotlib
+pip install    mordred
+pip install    networkx
+pip install	numpy
+pip install	python-ternary
+pip install	scikit-learn
+pip install    scipy
+pip install    tensorboardX
+pip install	tqdm
