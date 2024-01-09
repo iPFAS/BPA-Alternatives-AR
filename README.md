@@ -15,22 +15,7 @@ This code is based on the following works：
         GPUNum = '1'
         repetitions = 10
         seed = 0 
-        args = parser.parse_args(args=['--csv-path','data/5_AR_6108_NURA.csv',
-                                       '--task-names','label',
-                                       '--smiles-column','smiles',
-                                       '--result-path','result/6108_AR_NURA_AFP_0920',
-                                       '--num-evals','50',
-                                       '--num-epochs','300',
-        #                                '--split-ratio',
-                                        '--split','random',                     
-                                       '--metric','roc_auc_score',
-                                       '--model','AttentiveFP',
-        #                                '--atom-featurizer-type','attentivefp',
-        #                                '--bond-featurizer-type','attentivefp',
-        #                                  '--augmentation',
-        #                                '--num-workers',
-        #                                '--print-every',
-                                          ]).__dict__
+        args = parser.parse_args(args=[......]).__dict__
  ```
 #### 1-ML-based：This includes all the source code of ML-based models in this study.
 #### 1-Pycaret：This includes all the source code of EVS dataset trained using pycaret that only contains three or ten descriptors in this study.
