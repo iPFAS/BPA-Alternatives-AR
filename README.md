@@ -4,7 +4,7 @@ Implementation of the paper "Screening of the Antagonistic Activity of Potential
 
 ---
 
-![model_framework](./Process_Diagram.jpg)
+![model_framework](./Process_diagram.jpg)
 
 ---
 This code is based on the following works：  
