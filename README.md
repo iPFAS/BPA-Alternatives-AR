@@ -1,3 +1,5 @@
+#### Process Diagram
+![ ](images/process diagram.png)
 This code is based on the following works：  
   - [DGL-LifeSci: An Open-Source Toolkit for Deep Learning on Graphs in Life Science](https://pubs.acs.org/doi/10.1021/acsomega.1c04017)
   * [D-MPNN: Analyzing Learned Molecular Representations for Property Prediction](https://pubs.acs.org/doi/full/10.1021/acs.jcim.9b00237)
