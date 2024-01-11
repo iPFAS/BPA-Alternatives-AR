@@ -46,7 +46,7 @@ chemprop_predict --test_path predata.csv --no_features_scaling --checkpoint_dir 
  ``` 
 #### 2-HyML-based：This includes all the source code of HyML-based models in this study.
 * **model**：Hybrid models and Hyperparameters.
-- **1-AR-Alva-6108-slim-Normalize-group.csv**：The hybrid features of DMPNN and alva, with alva undergoing RFE selection..
+- **1-AR-AlvaSlim-DMPNN-6108-Normalize-group.csv**：The hybrid features of DMPNN and alva, with alva undergoing RFE selection..
 * **output**：Prediction results of NuRA-AR test set.
 - **In hyLGB hySVM hyXGB.ipynb**.
  ```
